@@ -9,7 +9,7 @@ anos = prompt("Digite sua idade em quantidade de anos: ");
 meses = prompt("Digite sua idade em quantidade de meses: ");
 dias = prompt("Digite sua idade em quantidade de dias: ");
 
-totalDias = (Number(anos) * DIAS_ANOS) + Number((meses) * DIAS_MESES) + Number(dias);
+totalDias = (Number(anos) * DIAS_ANOS) + (Number(meses) * DIAS_MESES) + Number(dias);
 
 alert("Você tem um total de: " + Math.round(totalDias) + " de dias vividos");
 console.log("Você tem um total de: " + Math.round(totalDias) + " de dias vividos");

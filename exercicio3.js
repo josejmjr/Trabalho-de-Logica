@@ -15,28 +15,27 @@ cargo = prompt("Digite o código de acordo com o seu cargo: \n101: Gerente \n102
 
 switch (cargo) {
     case "101":
-        salario = prompt("Qual o seu salário: ");
+        salario = prompt("Qual o seu salário? ");
         diferença = PERCENTUAL_GER * Number(salario);
-        console.log(calculaSalario());
+        calculaSalario();
         break;
     case "102":
-        salario = prompt("Qual o seu salário: ");
+        salario = prompt("Qual o seu salário? ");
         diferença = PERCENTUAL_ENG * Number(salario);
-        console.log(calculaSalario());
+        calculaSalario();
         break;
     case "103":
-        salario = prompt("Qual o seu salário: ");
+        salario = prompt("Qual o seu salário? ");
         diferença = PERCENTUAL_TEC * Number(salario);
-        console.log(calculaSalario());
+        calculaSalario();
         break;
     case "104":
-        salario = prompt("Qual o seu salário: ");
+        salario = prompt("Qual o seu salário? ");
         diferença = PERCENTUAL_OUTROS * Number(salario);
-        console.log(calculaSalario());
+        calculaSalario();
         break;
     default:
         alert("Código Inválido");
-
 }
 
 function calculaSalario(){
